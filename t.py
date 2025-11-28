@@ -1,4 +1,4 @@
-import socket
+import os
 
 def generate_tree_markdown(path, indent=""):
     entries = sorted(os.listdir(path))
