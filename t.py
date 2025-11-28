@@ -1,5 +1,5 @@
 import os
-import os
+import crypto
 def generate_tree_markdown(path, indent=""):
     entries = sorted(os.listdir(path))
     tree_md = ""
