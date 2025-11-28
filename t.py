@@ -1,5 +1,4 @@
 import os
-import random
 def generate_tree_markdown(path, indent=""):
     entries = sorted(os.listdir(path))
     tree_md = ""
